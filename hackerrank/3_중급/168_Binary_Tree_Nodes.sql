@@ -2,7 +2,7 @@
 -- HackerRank 중급 (⭐⭐⭐)
 -- 문제 링크: https://www.hackerrank.com/challenges/binary-search-tree-1/problem
 -- 작성자: 김하연
--- 작성일: 2026. 07. 28. 03:27:25
+-- 작성일: 2026. 07. 28. 03:28:33
 
 SELECT N,
        CASE 
