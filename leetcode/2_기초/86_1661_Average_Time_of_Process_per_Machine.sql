@@ -2,7 +2,7 @@
 -- LeetCode 기초 (⭐⭐)
 -- 문제 링크: https://leetcode.com/problems/average-time-of-process-per-machine/
 -- 작성자: 김하연
--- 작성일: 2026. 08. 01. 17:52:31
+-- 작성일: 2026. 08. 01. 17:54:37
 
 --     FROM Activity
 --     SELECT machine_id, process_id, activity_type, timestamp
