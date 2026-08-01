@@ -2,7 +2,7 @@
 -- LeetCode 기초 (⭐⭐)
 -- 문제 링크: https://leetcode.com/problems/rising-temperature/
 -- 작성자: 김하연
--- 작성일: 2026. 08. 01. 17:04:21
+-- 작성일: 2026. 08. 01. 17:04:47
 
 # Write your MySQL query statement below
 select id
@@ -13,4 +13,4 @@ from (
     from Weather
 ) t
 where temperature > lag_temperature
-and dateDiff(recordDate, lag_date) = 1
+and dateDiff(recordDate, lag_date) = 1     # 문제에서 정확히 'yesterday'라고 했으므로 추가해야함
